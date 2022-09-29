@@ -1,0 +1,98 @@
+body{
+    
+    background-image: linear-gradient(to right , black , rgb(121, 117, 117),black);
+    
+}
+main{
+    
+    background-color: rgba(134, 131, 131, 0.808);
+    width: 60%;
+    height: auto;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 15pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px  rgba(134, 131, 131, 0.685);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    color: rgba(55, 55, 58, 0.966);
+    font-weight: 900;
+    
+}
+legend{
+    color: rgba(55, 55, 58, 0.966);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin: 15px;
+    padding: 20px;
+    font-weight: 700;
+}
+ .LabeLInput :hover{
+    color: black;
+     
+}
+#msg{
+    background-color: rgba(0, 0, 0, 0.322);
+    border: 2px solid  rgba(190, 181, 181, 0.733);
+    border-radius: 10%;
+    
+}
+fieldset{
+    border: none;
+  
+    padding: 10px;
+    
+}
+.inputUser{
+width: 100%;
+background: none;
+outline: none;
+letter-spacing: 1pt;
+border-radius: 10px;
+
+}
+.inputUser:hover{
+    background-color: rgba(4, 56, 11, 0.726);
+}
+#dt_nascimento{
+    width: 40%;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.botao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(9, 46, 1, 0.692);
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.tpmsg{
+    border: 2px solid rgba(190, 181, 181, 0.733);
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    outline: none;
+
+}
+.tipo{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+
+}
